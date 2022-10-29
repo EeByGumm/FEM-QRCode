@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<!-- 
+This application is to display a qr code on a screen which has the web address for
+frontend mentor encoded. This app is responsive sucj that when the screen is 
+resized the QR Code will always remain in the center of the screen. The size of 
+the QR code does not change its size as it is large and clear enough on PC 
+Terminals and mobile phones.
+-->
+
+<html lang="en-gb">
 
 <head>
   <title>FEM-QR Code display</title>
@@ -16,11 +24,18 @@
 </head>
 
 <body>
-  <main class="main-cnt container">
+  <!-- This is the background area -->
+
+  <main class="container">
+    <!-- This the white display area that the 
+                                QR code is displayed on -->
+
     <div id="qr-code">
+      <!-- qr-code is the QR code display area -->
       <img src="./assets/image-qr-code.png" alt="A QR Code which stores the web Address of Frontend Mentor">
     </div>
     <div class="qr-text">
+      <!-- All the text on the diplay area is placed here -->
       <p>Improve your front-end skills by building projects</p>
       <h1>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h1>
     </div>
