@@ -22,13 +22,14 @@ body {
 
 /*  Placing the container for the QR code in the parent element */
 .container {
-  width: 300px;
+  width: 320px;
+  height: 498px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
   background-color: #fff;
 }
 
-/* The qr code takes up 100% of the .container width which is 280px */
+/* The qr code takes up 100% of the .container width which is 300px */
 #qr-code {
   width: 100%;
   margin-bottom: 1rem;
