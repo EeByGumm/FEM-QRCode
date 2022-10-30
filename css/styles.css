@@ -15,7 +15,7 @@ body {
   /* Display flex in this parent element allows to child elements to align
   in columns or rows with auto width and height */
   display: flex;            
-  min-height: 100vh;
+  min-height: 110vh;
   justify-content: center;
   align-items: center;
 }
