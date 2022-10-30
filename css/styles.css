@@ -10,11 +10,12 @@ body {
   font-family: Inter, sans-serif;
   background-color: #D4E0EE;
   font-weight: 400;
-  font-size: 15px;    
+  font-size: 15px;
 
   /* Display flex in this parent element allows to child elements to align
   in columns or rows with auto width and height */
-  display: flex;            
+  display: flex;
+  min-height: 100vh;           
   justify-content: center;
   align-items: center;
 }
@@ -22,9 +23,8 @@ body {
 /*  Placing the container for the QR code in the parent element */
 .container {
   width: 320px;
-  height: 498px;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
 }
 
