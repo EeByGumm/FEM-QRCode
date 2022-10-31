@@ -50,17 +50,17 @@ img {
 /* The following p, h1 and .attribution define size color and position of 
 the text on the screen*/
 p {
-  color: #32415B;
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-h1 {
   color: #8A8E99;
   font-size: 0.875rem;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+h1 {
+  color: #32415B;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .attribution {
