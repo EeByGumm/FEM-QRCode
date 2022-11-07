@@ -1,6 +1,6 @@
 # Project Title
 
-FeM-QrProject
+FeM-QrCode
 
 ## Description
 
